@@ -1,7 +1,7 @@
 version: "3.1"
 services:
   master:
-    image: ajeetraina/apache-jmeter-master
+    image: 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtest/master:v4.0.8
     tty: true
     ports:
       - "60000"
@@ -17,7 +17,7 @@ services:
       placement:
           constraints: [node.role == manager]
   slave:
-    image: ajeetraina/apache-jmeter-server
+    image: 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtest/slave:v4.0.9
     tty: true
     networks:
       - jm-network
@@ -25,13 +25,15 @@ services:
       - "50000"
       - "1099"
     deploy:
-      mode: global
+      mode: replicated
+      replicas: 10 
       restart_policy:
         condition: on-failure
         delay: 10s
         max_attempts: 3
         window: 120s
-      placement:
-        constraints: [node.role == worker]
+#      placement:
+#        constraints: [node.role == worker]
+
 networks:
   jm-network:

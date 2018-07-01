@@ -1,12 +1,12 @@
 #This Dockerfile builds Apache JMeter Master Executable based on ajeetraina/apache-jmeter-base
 
-FROM ajeetraina/apache-jmeter-base
-LABEL Description="This image is used to start the Apache JMeter Server Executable" Vendor="Collabnix" Version="1.0"
-
+FROM 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtesting/basejmeter:v4.0.5
+MAINTAINER MANOJ BHAMIDIPATI<mbhamidipati@ea.com>
 # Ports required for JMeter Slaves/Server
 EXPOSE 1099 50000
 
 # Application to be executed to start the JMeter container
-ENTRYPOINT $JMETER_HOME/bin/jmeter-server \
+ENTRYPOINT /jmeter/apache-jmeter-4.0/bin/jmeter-server \
                         -Dserver.rmi.localport=50000 \
+                        -Dserver.rmi.ssl.disable=true \
                         -Dserver_port=1099
