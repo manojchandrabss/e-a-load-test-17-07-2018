@@ -34,30 +34,7 @@ services:
         window: 120s
 #      placement:
 #        constraints: [node.role == worker]
-  influxdb:
-    image: 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtest/influxdb:v1.3.1.0
-    env_file: configuration.env
-    networks:
-      - jm-network
-    ports:
-      - '8086:8086'
-    volumes:
-      - influxdb_data:/var/lib/influxdb
-  grafana:
-    image: 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtest/grafana:v4.4.2.0
-    env_file: configuration.env
-    networks:
-      - jm-network
-    depends_on:
-      - influxdb
-    ports:
-      - '3000:3000'
-    volumes:
-      - grafana_data:/var/lib/grafana
 
-volumes:
-  grafana_data: {}
-  influxdb_data: {}
 
 networks:
   jm-network:
