@@ -1,6 +1,6 @@
 #This Dockerfile builds Apache JMeter Master Executable based on ajeetraina/apache-jmeter-base
 
-FROM 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtesting/basejmeter:v4.0.6
+FROM 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtesting/basejmeter:v4.0.7
 MAINTAINER MANOJ BHAMIDIPATI<mbhamidipati@ea.com>
 # Ports required for JMeter Slaves/Server
 EXPOSE 1099 50000
