@@ -1,7 +1,7 @@
-version: "3.1"
+version: "3.3"
 services:
   master:
-    image: 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtest/master:v4.0.8
+    image: 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtest/master:v4.0.9
     tty: true
     ports:
       - "60000"
@@ -17,7 +17,7 @@ services:
       placement:
           constraints: [node.role == manager]
   slave:
-    image: 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtest/slave:v4.0.9
+    image: 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtest/slave:v4.0.10
     tty: true
     networks:
       - jm-network
@@ -54,6 +54,9 @@ services:
       - '3000:3000'
     volumes:
       - grafana_data:/var/lib/grafana
+    deploy:
+      placement:
+         constraints: [node.role == manager]
 
 volumes:
   grafana_data: {}
