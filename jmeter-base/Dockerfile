@@ -22,10 +22,10 @@ RUN   mkdir /jmeter \
 		
 		
 
-COPY apache-jmeter-4.0 /jmeter/apache-jmeter-$JMETER_VERSION
-	
 ENV JMETER_HOME /jmeter/apache-jmeter-$JMETER_VERSION/
-		
+COPY wwce.int.omicron.2018.clt.jks /jmeter/apache-jmeter-$JMETER_VERSION/bin/ 
+COPY system.properties /jmeter/apache-jmeter-$JMETER_VERSION/bin/
+COPY Omicron_API_Load_Test_Suite.jmx /jmeter/apache-jmeter-$JMETER_VERSION/bin/	
 ENV PATH $JMETER_HOME/bin:$PATH
 
 

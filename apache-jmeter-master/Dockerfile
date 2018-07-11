@@ -1,5 +1,5 @@
 #This Dockerfile builds Apache JMeter Master Executable based on ajeetraina/apache-jmeter-base
-FROM 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtesting/basejmeter:v4.0.8 
+FROM 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtesting/basejmeter:v4.0.10 
 MAINTAINER MANOJ BHAMIDIPATI<mbhamidipati@ea.com>
 
 
