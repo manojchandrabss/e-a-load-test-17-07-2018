@@ -4,7 +4,8 @@ POC Helptestperformance
 steps:
 
 1) configure aws
-2) login into aws
+2) login into aws -> aws configure
+give access, secret keys and region
 3) aws ecr get-login --no-include-email --region us-east-1
 copy output and run the output:
 example: docker login -u example.......
