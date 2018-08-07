@@ -1,0 +1,35 @@
+FROM openjdk:8-jre-slim
+MAINTAINER mbhamidipati@ea.com
+		
+ARG JMETER_VERSION=4.0
+		
+RUN apt-get clean && \
+apt-get update && \
+apt-get -qy install \
+wget \
+telnet \
+iputils-ping \
+unzip
+RUN   mkdir /jmeter \
+&& cd /jmeter/ \
+&& wget https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-$JMETER_VERSION.tgz \
+&& tar -xzf apache-jmeter-$JMETER_VERSION.tgz \
+&& rm apache-jmeter-$JMETER_VERSION.tgz \
+&& mkdir /jmeter-plugins \
+&& cd /jmeter-plugins/ \
+&& wget https://jmeter-plugins.org/downloads/file/JMeterPlugins-ExtrasLibs-1.4.0.zip \
+&& unzip -o JMeterPlugins-ExtrasLibs-1.4.0.zip -d /jmeter/apache-jmeter-$JMETER_VERSION/
+		
+		
+
+ENV JMETER_HOME /jmeter/apache-jmeter-$JMETER_VERSION/
+COPY wwce.int.omicron.2018.clt.jks /jmeter/apache-jmeter-$JMETER_VERSION/bin/ 
+COPY system.properties /jmeter/apache-jmeter-$JMETER_VERSION/bin/
+COPY Omicron_API_Load_Test_Suite.jmx /jmeter/apache-jmeter-$JMETER_VERSION/bin/
+COPY rmi_keystore.jks /jmeter/apache-jmeter-$JMETER_VERSION/bin/	
+ENV PATH $JMETER_HOME/bin:$PATH
+
+
+
+
+

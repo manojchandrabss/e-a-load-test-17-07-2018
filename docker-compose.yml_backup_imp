@@ -1,0 +1,66 @@
+version: "3.3"
+services:
+  master:
+    image: 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtest/master:v4.0.14
+    tty: true
+    ports:
+      - "60000"
+    networks:
+      - jm-network
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+        delay: 10s
+        max_attempts: 3
+        window: 120s
+      placement:
+          constraints: [node.role == manager]
+  slave:
+    image: 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtest/slave:v4.0.16
+    tty: true
+    networks:
+      - jm-network
+    ports:
+      - "50000"
+      - "1099"
+    deploy:
+      mode: replicated
+      replicas: 1 
+      restart_policy:
+        condition: on-failure
+        delay: 10s
+        max_attempts: 3
+        window: 120s
+#      placement:
+#        constraints: [node.role == worker]
+  influxdb:
+    image: 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtest/influxdb:v1.3.1.0
+    env_file: configuration.env
+    networks:
+      - jm-network
+    ports:
+      - '8086:8086'
+    volumes:
+      - influxdb_data:/var/lib/influxdb
+  grafana:
+    image: 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtest/grafana:v4.4.2.0
+    env_file: configuration.env
+    networks:
+      - jm-network
+    depends_on:
+      - influxdb
+    ports:
+      - '3000:3000'
+    volumes:
+      - grafana_data:/var/lib/grafana
+    deploy:
+      placement:
+         constraints: [node.role == manager]
+
+volumes:
+  grafana_data: {}
+  influxdb_data: {}
+
+networks:
+  jm-network:

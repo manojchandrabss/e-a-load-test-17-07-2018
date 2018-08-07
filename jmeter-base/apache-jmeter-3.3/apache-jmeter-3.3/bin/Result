@@ -1,0 +1,90 @@
+1533288043099,639,GetResetPasswordLink,404,Not Found,Test_GetResetPasswordLink 23-1,text,false,1631,1,41,639
+1533288043015,731,GetBattleLogUrl,200,OK,Test_GetBattleLogUrl 45-1,text,true,325,1,41,730
+1533288043106,810,GetAllKeymasterOrSalesforceCodeSets,200,OK,Test_GetAllKeymasterOrSalesforceCodeSets 33-1,text,true,1258,1,41,810
+1533288043067,853,GetwalletFundConfiguration,200,OK,Test_GetwalletFundConfiguration 39-1,text,true,300,1,41,853
+1533288043085,838,GetEstimatedWaitTime  ,200,OK,Test_GetEstimatedWaitTime   30-1,text,true,631,1,41,838
+1533288043739,249,GetResetPasswordLink,404,Not Found,Test_GetResetPasswordLink 23-1,text,false,1631,1,41,249
+1533288043018,974,GetNucleusUserEntitlements ,200,OK,Test_GetNucleusUserEntitlements  3-1,text,true,3992,1,41,729
+1533288043070,926,GetPremiumCustomerValue,200,OK,Test_GetPremiumCustomerValue 37-1,text,true,259,1,41,926
+1533288043747,250,GetBattleLogUrl,200,OK,Test_GetBattleLogUrl 45-1,text,true,325,1,41,249
+1533288043017,983,GetPingSites,200,OK,Test_GetPingSites 44-1,text,true,540,1,41,983
+1533288043021,986,GetEmailHistories,200,OK,Test_GetEmailHistories 42-1,text,true,618,1,41,986
+1533288043021,994,GetPremiumCustomerEntitlements,200,OK,Test_GetPremiumCustomerEntitlements 4-1,text,true,408,1,41,994
+1533288043104,911,GetPackPurchaseHistory,200,OK,Test_GetPackPurchaseHistory 24-1,text,true,228,1,41,911
+1533288043066,985,GetGameStatistics,200,OK,Test_GetGameStatistics 20-1,text,true,310,1,41,985
+1533288043092,962,GetCustomerTwofactorStatus,200,OK,Test_GetCustomerTwofactorStatus 26-1,text,true,405,1,41,962
+1533288043020,1055,searchCreditCardAccounts,200,OK,Test_searchCreditCardAccounts 41-1,text,true,1208,1,41,1055
+1533288043016,1061,GetConfiguredEntitlements,200,OK,Test_GetConfiguredEntitlements 43-1,text,true,309,1,41,1061
+1533288043018,1059,GetWalletAccounts,200,OK,Test_GetWalletAccounts 5-1,text,true,1073,1,41,1058
+1533288043020,1059,GetCreditCardAccounts,200,OK,Test_GetCreditCardAccounts 11-1,text,true,1208,1,41,1059
+1533288043019,1072,GetPrepaidAccounts,200,OK,Test_GetPrepaidAccounts 6-1,text,true,904,1,41,1072
+1533288043020,1095,getRealTimeBankingAccounts,200,OK,Test_getRealTimeBankingAccounts 9-1,text,true,912,1,41,1095
+1533288043020,1096,GetWebPaymentAccounts,200,OK,Test_GetWebPaymentAccounts 8-1,text,true,969,1,41,1096
+1533288043924,251,GetEstimatedWaitTime  ,200,OK,Test_GetEstimatedWaitTime   30-1,text,true,631,1,41,251
+1533288043100,1113,GetInvoice,200,OK,Test_GetInvoice 21-1,text,true,1608,1,41,1113
+1533288043020,1198,GetPayPalAccounts,200,OK,Test_GetPayPalAccounts 10-1,text,true,1691,1,41,1198
+1533288043988,252,GetResetPasswordLink,404,Not Found,Test_GetResetPasswordLink 23-1,text,false,1631,1,41,252
+1533288043996,249,GetPremiumCustomerValue,200,OK,Test_GetPremiumCustomerValue 37-1,text,true,259,1,40,249
+1533288043017,1258,GetProductsOwnedByUser,200,OK,Test_GetProductsOwnedByUser 40-1,text,true,2400,1,40,1258
+1533288043921,365,GetwalletFundConfiguration,200,OK,Test_GetwalletFundConfiguration 39-1,text,true,300,1,40,365
+1533288043916,392,GetAllKeymasterOrSalesforceCodeSets,200,OK,Test_GetAllKeymasterOrSalesforceCodeSets 33-1,text,true,1258,1,40,392
+1533288043090,1229,FetchGrantableItems,200,OK,Test_FetchGrantableItems 27-1,text,true,361,1,40,1229
+1533288044077,250,GetConfiguredEntitlements,200,OK,Test_GetConfiguredEntitlements 43-1,text,true,309,1,40,250
+1533288043019,1336,getAllBankTransferAccounts,200,OK,Test_getAllBankTransferAccounts 7-1,text,true,1106,1,40,1336
+1533288044001,412,GetPingSites,200,OK,Test_GetPingSites 44-1,text,true,540,1,40,412
+1533288044175,248,GetEstimatedWaitTime  ,200,OK,Test_GetEstimatedWaitTime   30-1,text,true,631,1,40,248
+1533288043099,1327,GetInventory,200,OK,Test_GetInventory 25-1,text,true,7563,1,39,1327
+1533288044245,248,GetPremiumCustomerValue,200,OK,Test_GetPremiumCustomerValue 37-1,text,true,259,1,39,248
+1533288044008,494,GetEmailHistories,200,OK,Test_GetEmailHistories 42-1,text,true,618,1,38,494
+1533288044016,495,GetPremiumCustomerEntitlements,200,OK,Test_GetPremiumCustomerEntitlements 4-1,text,true,408,1,38,495
+1533288044016,527,GetPackPurchaseHistory,200,OK,Test_GetPackPurchaseHistory 24-1,text,true,228,1,38,527
+1533288044054,494,GetCustomerTwofactorStatus,200,OK,Test_GetCustomerTwofactorStatus 26-1,text,true,405,1,38,494
+1533288044075,496,searchCreditCardAccounts,200,OK,Test_searchCreditCardAccounts 41-1,text,true,1208,1,38,496
+1533288044077,495,GetWalletAccounts,200,OK,Test_GetWalletAccounts 5-1,text,true,1073,1,38,495
+1533288044080,495,GetCreditCardAccounts,200,OK,Test_GetCreditCardAccounts 11-1,text,true,1208,1,38,495
+1533288044091,517,GetPrepaidAccounts,200,OK,Test_GetPrepaidAccounts 6-1,text,true,904,1,38,517
+1533288044052,594,GetGameStatistics,200,OK,Test_GetGameStatistics 20-1,text,true,310,1,38,594
+1533288044287,376,GetwalletFundConfiguration,200,OK,Test_GetwalletFundConfiguration 39-1,text,true,300,1,38,376
+1533288043992,675,GetNucleusUserEntitlements ,200,OK,Test_GetNucleusUserEntitlements  3-1,text,true,3992,1,37,675
+1533288043099,1578,GetSubscriptions,200,OK,Test_GetSubscriptions 22-1,text,true,1742,1,37,1578
+1533288044308,370,GetAllKeymasterOrSalesforceCodeSets,200,OK,Test_GetAllKeymasterOrSalesforceCodeSets 33-1,text,true,1258,1,37,370
+1533288044115,581,getRealTimeBankingAccounts,200,OK,Test_getRealTimeBankingAccounts 9-1,text,true,912,1,36,581
+1533288044116,581,GetWebPaymentAccounts,200,OK,Test_GetWebPaymentAccounts 8-1,text,true,969,1,36,581
+1533288044218,517,GetPayPalAccounts,200,OK,Test_GetPayPalAccounts 10-1,text,true,959,1,36,517
+1533288044498,249,GetBattleLogUrl,200,OK,Test_GetBattleLogUrl 45-1,text,true,325,1,36,249
+1533288044320,534,FetchGrantableItems,200,OK,Test_FetchGrantableItems 27-1,text,true,361,1,35,534
+1533288044502,493,GetEmailHistories,200,OK,Test_GetEmailHistories 42-1,text,true,618,1,35,493
+1533288044511,502,GetPremiumCustomerEntitlements,200,OK,Test_GetPremiumCustomerEntitlements 4-1,text,true,408,1,34,502
+1533288043110,1907,ViewPersonaDetails,200,OK,Test_ViewPersonaDetails 38-1,text,true,1764,1,33,1907
+1533288044276,755,GetProductsOwnedByUser,200,OK,Test_GetProductsOwnedByUser 40-1,text,true,2400,1,33,755
+1533288044548,494,GetCustomerTwofactorStatus,200,OK,Test_GetCustomerTwofactorStatus 26-1,text,true,405,1,33,494
+1533288044543,527,GetPackPurchaseHistory,200,OK,Test_GetPackPurchaseHistory 24-1,text,true,228,1,32,527
+1533288044575,496,GetCreditCardAccounts,200,OK,Test_GetCreditCardAccounts 11-1,text,true,1208,1,31,496
+1533288044573,499,GetWalletAccounts,200,OK,Test_GetWalletAccounts 5-1,text,true,1073,1,30,497
+1533288044571,510,searchCreditCardAccounts,200,OK,Test_searchCreditCardAccounts 41-1,text,true,1208,1,29,510
+1533288044829,272,GetConfiguredEntitlements,200,OK,Test_GetConfiguredEntitlements 43-1,text,true,309,1,28,272
+1533288044608,527,GetPrepaidAccounts,200,OK,Test_GetPrepaidAccounts 6-1,text,true,904,1,27,527
+1533288043019,2140,GetUniqueProductsOwnedByUser,200,OK,Test_GetUniqueProductsOwnedByUser 2-1,text,true,486,1,26,2140
+1533288044356,807,getAllBankTransferAccounts,200,OK,Test_getAllBankTransferAccounts 7-1,text,true,1106,1,26,807
+1533288044697,511,GetWebPaymentAccounts,200,OK,Test_GetWebPaymentAccounts 8-1,text,true,969,1,26,511
+1533288044697,512,getRealTimeBankingAccounts,200,OK,Test_getRealTimeBankingAccounts 9-1,text,true,912,1,25,512
+1533288044647,562,GetGameStatistics,200,OK,Test_GetGameStatistics 20-1,text,true,310,1,25,562
+1533288044736,512,GetPayPalAccounts,200,OK,Test_GetPayPalAccounts 10-1,text,true,959,1,23,510
+1533288044915,419,GetPingSites,200,OK,Test_GetPingSites 44-1,text,true,540,1,22,419
+1533288044427,925,GetInventory,200,OK,Test_GetInventory 25-1,text,true,7563,1,21,925
+1533288044855,516,FetchGrantableItems,200,OK,Test_FetchGrantableItems 27-1,text,true,361,1,21,513
+1533288044667,891,GetNucleusUserEntitlements ,200,OK,Test_GetNucleusUserEntitlements  3-1,text,true,3992,1,20,643
+1533288044678,1010,GetSubscriptions,200,OK,Test_GetSubscriptions 22-1,text,true,1742,1,19,1010
+1533288045031,776,GetProductsOwnedByUser,200,OK,Test_GetProductsOwnedByUser 40-1,text,true,2400,1,19,776
+1533288045164,854,getAllBankTransferAccounts,200,OK,Test_getAllBankTransferAccounts 7-1,text,true,1106,1,18,854
+1533288045017,1252,ViewPersonaDetails,200,OK,Test_ViewPersonaDetails 38-1,text,true,1338,1,17,1252
+1533288045352,939,GetInventory,200,OK,Test_GetInventory 25-1,text,true,7563,1,17,939
+1533288045688,1029,GetSubscriptions,200,OK,Test_GetSubscriptions 22-1,text,true,1742,1,16,1029
+1533288045159,1694,GetUniqueProductsOwnedByUser,200,OK,Test_GetUniqueProductsOwnedByUser 2-1,text,true,486,1,15,1694
+1533288046854,248,GetUniqueProductsOwnedByUser,200,OK,Test_GetUniqueProductsOwnedByUser 2-1,text,true,486,1,15,248
+1533288046269,1260,ViewPersonaDetails,200,OK,Test_ViewPersonaDetails 38-1,text,true,1332,1,14,1260
+1533288042989,5022,GetCustomerAccountDetails,200,OK,Test_GetCustomerAccountDetails 1-1,text,true,2643,1,13,5022
+1533288048029,4497,GetCustomerAccountDetails,200,OK,Test_GetCustomerAccountDetails 1-1,text,true,2539,1,13,4497
+1533288052531,3298,GetCustomerAccountDetails,200,OK,Test_GetCustomerAccountDetails 1-1,text,true,2539,1,13,3297
+1533288044214,14461,GetInvoice,200,OK,Test_GetInvoice 21-1,text,true,106573,1,12,12360
+1533288059366,14269,GetInvoice,200,OK,Test_GetInvoice 21-1,text,true,106573,1,12,12279

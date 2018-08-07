@@ -1,0 +1,95 @@
+1533115417750,1311,Archived Case,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Archived Cases 5-1,text,false,2325,1,5,0
+1533115418109,952,Chat Transcript API,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Chat Transcript API 2-1,text,false,2325,1,5,0
+1533115417708,1372,Player Notes API - UserId,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Player Notes API 3-1,text,false,2391,1,5,0
+1533115418142,942,Em Events API - CaseId - NoteCategory,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,EMEVENTS 1-1,text,false,2391,1,5,0
+1533115417756,1339,CustomVar API,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,CustomerVar and Survey API 4-1,text,false,2391,1,5,0
+1533115419067,859,Chat Transcript API,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Chat Transcript API 2-1,text,false,2325,1,5,0
+1533115419070,861,Archived Case,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Archived Cases 5-1,text,false,2325,1,5,0
+1533115419093,867,Em Events API - EventId,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,EMEVENTS 1-1,text,false,2325,1,5,0
+1533115419088,873,Player Notes API - EmailId,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Player Notes API 3-1,text,false,2325,1,5,0
+1533115419101,863,Survey API - site Survey,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,CustomerVar and Survey API 4-1,text,false,2391,1,5,0
+1533115419931,862,Chat Transcript API,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Chat Transcript API 2-1,text,false,2325,1,5,0
+1533115419937,857,Archived Case,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Archived Cases 5-1,text,false,2325,1,5,0
+1533115419963,856, Em Events API - Battlefield Events,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,EMEVENTS 1-1,text,false,2325,1,5,0
+1533115419965,858,Player Notes API - UserId,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Player Notes API 3-1,text,false,2325,1,5,0
+1533115419968,865,Survey API - caseSurvey,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,CustomerVar and Survey API 4-1,text,false,2325,1,5,0
+1533115420796,861,Chat Transcript API,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Chat Transcript API 2-1,text,false,2325,1,5,0
+1533115420796,860,Archived Case,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Archived Cases 5-1,text,false,2325,1,5,0
+1533115420822,863,Em Events API - case_count,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,EMEVENTS 1-1,text,false,2325,1,5,0
+1533115420827,862,Player Notes API - EmailId,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Player Notes API 3-1,text,false,2325,1,5,0
+1533115420836,857,CustomVar API,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,CustomerVar and Survey API 4-1,text,false,2391,1,5,0
+1533115421659,862,Chat Transcript API,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Chat Transcript API 2-1,text,false,2325,1,5,0
+1533115421659,863,Archived Case,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Archived Cases 5-1,text,false,2325,1,5,0
+1533115421690,852,Em Events API - casesnotes_events,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,EMEVENTS 1-1,text,false,2325,1,5,0
+1533115421693,860,Player Notes API - UserId,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Player Notes API 3-1,text,false,2325,1,5,0
+1533115421695,863,Survey API - site Survey,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,CustomerVar and Survey API 4-1,text,false,2391,1,5,0
+1533115422523,856,Chat Transcript API,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Chat Transcript API 2-1,text,false,2325,1,5,0
+1533115422524,864,Archived Case,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Archived Cases 5-1,text,false,2391,1,5,0
+1533115422545,851,Em Events API - child_events,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,EMEVENTS 1-1,text,false,2325,1,5,0
+1533115422555,856,Player Notes API - EmailId,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Player Notes API 3-1,text,false,2325,1,5,0
+1533115422561,858,Survey API - caseSurvey,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,CustomerVar and Survey API 4-1,text,false,2391,1,5,0
+1533115423382,855,Chat Transcript API,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Chat Transcript API 2-1,text,false,2325,1,5,0
+1533115423391,855,Archived Case,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Archived Cases 5-1,text,false,2325,1,5,0
+1533115423398,857,Em Events API - entitlement_events,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,EMEVENTS 1-1,text,false,2325,1,5,0
+1533115423414,854,Player Notes API - UserId,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Player Notes API 3-1,text,false,2325,1,5,0
+1533115423422,859,CustomVar API,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,CustomerVar and Survey API 4-1,text,false,2325,1,5,0
+1533115424239,851,Chat Transcript API,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Chat Transcript API 2-1,text,false,2325,1,5,0
+1533115424248,852,Archived Case,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Archived Cases 5-1,text,false,2325,1,5,0
+1533115424257,853,Em Events API - fifa_events,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,EMEVENTS 1-1,text,false,2325,1,5,0
+1533115424270,862,Player Notes API - EmailId,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Player Notes API 3-1,text,false,2325,1,5,0
+1533115424284,874,Survey API - site Survey,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,CustomerVar and Survey API 4-1,text,false,2325,1,5,0
+1533115425093,860,Chat Transcript API,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Chat Transcript API 2-1,text,false,2325,1,5,0
+1533115425103,867,Archived Case,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Archived Cases 5-1,text,false,2391,1,5,0
+1533115425113,867,Em Events API - portalcases_events,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,EMEVENTS 1-1,text,false,2325,1,5,0
+1533115425134,872,Player Notes API - UserId,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Player Notes API 3-1,text,false,2325,1,5,0
+1533115425162,895,Survey API - caseSurvey,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,CustomerVar and Survey API 4-1,text,false,2325,1,5,0
+1533115425955,860,Chat Transcript API,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Chat Transcript API 2-1,text,false,2325,1,5,0
+1533115425973,866,Archived Case,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Archived Cases 5-1,text,false,2325,1,5,0
+1533115425981,876,Em Events API - selfservice,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,EMEVENTS 1-1,text,false,2325,1,5,0
+1533115426009,860,Player Notes API - EmailId,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Player Notes API 3-1,text,false,2325,1,5,0
+1533115426059,850,CustomVar API,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,CustomerVar and Survey API 4-1,text,false,2325,1,5,0
+1533115426818,850,Chat Transcript API,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Chat Transcript API 2-1,text,false,2325,1,5,0
+1533115426842,847,Archived Case,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Archived Cases 5-1,text,false,2325,1,5,0
+1533115426859,853,Em Events API - CaseId - NoteCategory,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,EMEVENTS 1-1,text,false,2325,1,5,0
+1533115426873,853,Player Notes API - UserId,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Player Notes API 3-1,text,false,2325,1,5,0
+1533115426911,857,Survey API - site Survey,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,CustomerVar and Survey API 4-1,text,false,2325,1,5,0
+1533115427671,848,Chat Transcript API,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Chat Transcript API 2-1,text,false,2325,1,5,0
+1533115427692,848,Archived Case,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Archived Cases 5-1,text,false,2325,1,5,0
+1533115427714,853,Em Events API - EventId,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,EMEVENTS 1-1,text,false,2325,1,5,0
+1533115427728,857,Player Notes API - EmailId,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Player Notes API 3-1,text,false,2325,1,5,0
+1533115427770,849,Survey API - caseSurvey,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,CustomerVar and Survey API 4-1,text,false,2325,1,5,0
+1533115428570,658, Em Events API - Battlefield Events,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,EMEVENTS 1-1,text,false,2443,1,5,0
+1533115428521,722,Chat Transcript API,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Chat Transcript API 2-1,text,false,2443,1,4,0
+1533115428587,667,Player Notes API - UserId,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Player Notes API 3-1,text,false,2443,1,3,0
+1533115428621,637,CustomVar API,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,CustomerVar and Survey API 4-1,text,false,2443,1,2,0
+1533115428543,726,Archived Case,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Archived Cases 5-1,text,false,2443,1,1,0
+1533115485521,879,Archived Case,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Archived Cases 5-1,text,false,2391,1,5,0
+1533115485517,879,Chat Transcript API,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Chat Transcript API 2-1,text,false,2325,1,5,0
+1533115485519,876,Em Events API - CaseId - NoteCategory,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,EMEVENTS 1-1,text,false,2325,1,5,0
+1533115485519,881,CustomVar API,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,CustomerVar and Survey API 4-1,text,false,2391,1,5,0
+1533115485522,878,Player Notes API - UserId,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Player Notes API 3-1,text,false,2391,1,5,0
+1533115486406,847,Archived Case,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Archived Cases 5-1,text,false,2325,1,5,0
+1533115486409,845,Player Notes API - EmailId,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Player Notes API 3-1,text,false,2391,1,5,0
+1533115486407,847,Chat Transcript API,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Chat Transcript API 2-1,text,false,2391,1,5,0
+1533115486409,849,Em Events API - EventId,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,EMEVENTS 1-1,text,false,2391,1,5,0
+1533115486406,852,Survey API - site Survey,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,CustomerVar and Survey API 4-1,text,false,2391,1,5,0
+1533115487255,844,Player Notes API - UserId,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Player Notes API 3-1,text,false,2325,1,5,0
+1533115487256,843,Archived Case,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Archived Cases 5-1,text,false,2325,1,5,0
+1533115487261,841,Survey API - caseSurvey,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,CustomerVar and Survey API 4-1,text,false,2325,1,5,0
+1533115487255,847,Chat Transcript API,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Chat Transcript API 2-1,text,false,2325,1,5,0
+1533115487260,844, Em Events API - Battlefield Events,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,EMEVENTS 1-1,text,false,2391,1,5,0
+1533115488100,838,Player Notes API - EmailId,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Player Notes API 3-1,text,false,2325,1,5,0
+1533115488100,838,Archived Case,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Archived Cases 5-1,text,false,2325,1,5,0
+1533115488103,841,Chat Transcript API,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Chat Transcript API 2-1,text,false,2325,1,5,0
+1533115488105,839,Em Events API - case_count,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,EMEVENTS 1-1,text,false,2325,1,5,0
+1533115488103,842,CustomVar API,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,CustomerVar and Survey API 4-1,text,false,2325,1,5,0
+1533115488939,840,Player Notes API - UserId,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Player Notes API 3-1,text,false,2325,1,5,0
+1533115488939,840,Archived Case,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Archived Cases 5-1,text,false,2325,1,5,0
+1533115488945,842,Chat Transcript API,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,Chat Transcript API 2-1,text,false,2325,1,5,0
+1533115488946,842,Survey API - site Survey,Non HTTP response code: javax.net.ssl.SSLHandshakeException,Non HTTP response message: Received fatal alert: handshake_failure,CustomerVar and Survey API 4-1,text,false,2325,1,5,0
+1533115488945,843,Em Events API - casesnotes_events,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,EMEVENTS 1-1,text,false,2391,1,5,0
+1533115489789,472,Em Events API - child_events,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,EMEVENTS 1-1,text,false,2443,1,5,0
+1533115489788,476,Chat Transcript API,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Chat Transcript API 2-1,text,false,2443,1,4,0
+1533115489780,485,Player Notes API - EmailId,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Player Notes API 3-1,text,false,2443,1,3,0
+1533115489789,478,Survey API - caseSurvey,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,CustomerVar and Survey API 4-1,text,false,2443,1,2,0
+1533115489780,489,Archived Case,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Archived Cases 5-1,text,false,2443,1,1,0

@@ -1,7 +1,7 @@
 version: "3.3"
 services:
   master:
-    image: 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtest/master:v4.0.14
+    image: 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtest/master:v3.3.3
     tty: true
     ports:
       - "60000"
@@ -14,10 +14,10 @@ services:
         delay: 10s
         max_attempts: 3
         window: 120s
-      placement:
-          constraints: [node.role == manager]
+   #   placement:
+   #       constraints: [node.role == manager]
   slave:
-    image: 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtest/slave:v4.0.16
+    image: 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtest/slave:v3.3.5
     tty: true
     networks:
       - jm-network
@@ -26,7 +26,7 @@ services:
       - "1099"
     deploy:
       mode: replicated
-      replicas: 5 
+      replicas: 1 
       restart_policy:
         condition: on-failure
         delay: 10s

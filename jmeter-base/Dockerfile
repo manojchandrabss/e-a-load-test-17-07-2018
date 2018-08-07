@@ -1,34 +1,32 @@
+# Use Java 8 slim JRE
 FROM openjdk:8-jre-slim
-MAINTAINER mbhamidipati@ea.com
-		
-ARG JMETER_VERSION=4.0
-		
+MAINTAINER TestAutomationGuru
+
+# JMeter version
+ARG JMETER_VERSION=3.3
+
+# Install few utilities
 RUN apt-get clean && \
-apt-get update && \
-apt-get -qy install \
-wget \
-telnet \
-iputils-ping \
-unzip
+    apt-get update && \
+    apt-get -qy install \
+                wget \
+                telnet \
+                iputils-ping \
+                unzip
+
+# Install JMeter
 RUN   mkdir /jmeter \
-&& cd /jmeter/ \
-&& wget https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-$JMETER_VERSION.tgz \
-&& tar -xzf apache-jmeter-$JMETER_VERSION.tgz \
-&& rm apache-jmeter-$JMETER_VERSION.tgz \
-&& mkdir /jmeter-plugins \
-&& cd /jmeter-plugins/ \
-&& wget https://jmeter-plugins.org/downloads/file/JMeterPlugins-ExtrasLibs-1.4.0.zip \
-&& unzip -o JMeterPlugins-ExtrasLibs-1.4.0.zip -d /jmeter/apache-jmeter-$JMETER_VERSION/
-		
-		
+      && cd /jmeter/ \
+      && wget https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-$JMETER_VERSION.tgz \
+      && tar -xzf apache-jmeter-$JMETER_VERSION.tgz \
+      && rm apache-jmeter-$JMETER_VERSION.tgz
 
+# ADD all the plugins
+
+COPY apache-jmeter-3.3/* /jmeter/apache-jmeter-$JMETER_VERSION/
+
+# Set JMeter Home
 ENV JMETER_HOME /jmeter/apache-jmeter-$JMETER_VERSION/
-COPY wwce.int.omicron.2018.clt.jks /jmeter/apache-jmeter-$JMETER_VERSION/bin/ 
-COPY system.properties /jmeter/apache-jmeter-$JMETER_VERSION/bin/
-COPY Omicron_API_Load_Test_Suite.jmx /jmeter/apache-jmeter-$JMETER_VERSION/bin/	
+
+# Add JMeter to the Path
 ENV PATH $JMETER_HOME/bin:$PATH
-
-
-
-
-
