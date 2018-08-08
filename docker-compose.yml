@@ -14,8 +14,8 @@ services:
         delay: 10s
         max_attempts: 3
         window: 120s
-   #   placement:
-   #       constraints: [node.role == manager]
+      placement:
+          constraints: [node.role == manager]
   slave:
     image: 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtest/slave:v3.3.5
     tty: true
@@ -26,14 +26,14 @@ services:
       - "1099"
     deploy:
       mode: replicated
-      replicas: 1 
+      replicas: 5 
       restart_policy:
         condition: on-failure
         delay: 10s
         max_attempts: 3
         window: 120s
-#      placement:
-#        constraints: [node.role == worker]
+      placement:
+        constraints: [node.role == worker]
   influxdb:
     image: 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtest/influxdb:v1.3.1.0
     env_file: configuration.env
@@ -42,7 +42,10 @@ services:
     ports:
       - '8086:8086'
     volumes:
-      - influxdb_data:/var/lib/influxdb
+      - influxdb_data:/var/lib/influxdbi
+    deploy:
+      placement:
+         constraints: [node.role == manager]
   grafana:
     image: 614055586702.dkr.ecr.us-east-1.amazonaws.com/ea_help_loadtest/grafana:v4.4.2.0
     env_file: configuration.env
